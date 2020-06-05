@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Khanh Nghiem</title>
+    <link>https://example.com/posts/</link>
+    <description>Recent content in Posts on Khanh Nghiem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why you should practice writing</title>
+      <link>https://example.com/posts/why-you-should-practice-writing/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/why-you-should-practice-writing/</guid>
+      <description>Lately, I have been obsessed with Janelle Monáe. This obsession began with her latest album “Dirty Computer”. I admire how articulate and thoughtful she is with everything that she does. So I did what any true fan would do: I tried to watch as many interviews with Janelle Monáe as possible.</description>
+    </item>
+    
+  </channel>
+</rss>
