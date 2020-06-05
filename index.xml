@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Khanh Nghiem</title>
-    <link>https://example.com/</link>
+    <link>https://knghiem.github.io/</link>
     <description>Recent content in Home on Khanh Nghiem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://knghiem.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why you should practice writing</title>
-      <link>https://example.com/posts/why-you-should-practice-writing/</link>
+      <link>https://knghiem.github.io/posts/why-you-should-practice-writing/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/why-you-should-practice-writing/</guid>
+      <guid>https://knghiem.github.io/posts/why-you-should-practice-writing/</guid>
       <description>Lately, I have been obsessed with Janelle Monáe. This obsession began with her latest album “Dirty Computer”. I admire how articulate and thoughtful she is with everything that she does. So I did what any true fan would do: I tried to watch as many interviews with Janelle Monáe as possible.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://knghiem.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://knghiem.github.io/about/</guid>
       <description>My name is Khanh Nghiem (b. 1997). I was born in Hanoi, Vietnam and moved to the US for college in 2015. I am currently living in Austin, TX. My day job is at Google Cloud, in a one-year talent development program where I received intensive training on cloud technology and business skills before rotating through different positions across the company.</description>
     </item>
     
