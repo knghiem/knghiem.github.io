@@ -1,10 +1,6 @@
-html, body, ul, ol, li {
-    font-family: 'Alef', sans-serif;
-    /* font-size: 0.95rem; */
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Source Code Pro', monospace;
+html, body, ul, ol, li, h2, h3, h4, h5, h6 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    /* font-size: 2 rem; */
 }
 
 #top-shadow {
@@ -33,7 +29,7 @@ nav a.nav-link {
 }
 
 #main {
-    margin-top: 1em;
+    margin-top: 4em;
     margin-bottom: 4em;
 }
 
@@ -46,10 +42,6 @@ nav a.nav-link {
     text-decoration: underline;
 }
 
-.font-125 {
-    font-size: 125%;
-}
-  
 .tag-btn {
     margin-bottom: 0.3em;
 }
@@ -95,34 +87,40 @@ audio {
     font-family: 'Source Code Pro', monospace !important;
 }
 
-.font-2 {
-    font-family: 'Major Mono Display', monospace !important;
-}
 .highlighted {
     color: white;
     background-color: black;
 }
 
 .header-1 {
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 4vw
 }
 .sub-1 {
     font-size: 2.5vw;
     font-weight: 300;
+    padding-bottom: 5%;
 }
 
 .header-row {
     padding-bottom: 2%;
 }
 
-body {
-    padding-top: 40px;
+.title {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size:x-large;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.single-title {
+    font-weight: 800;
 }
 
 a {
     color: black;
     text-decoration-line: underline;
+    text-underline-position: under;
     text-decoration-style: dashed;
     text-decoration-color: gray;  
 }
@@ -132,35 +130,20 @@ a:hover {
     text-decoration: none;
 }
 
-.title {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 1.25rem;
-    text-decoration: none;
-}
-
-.featured {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 1.15rem;
-    text-decoration: none;
-}
-
 @media screen and (min-width: 992px) {
     .header-1 {
-        font-size: 2.75vw
+        font-size: 3.75vw
     }
     .sub-1 {
-        font-size: 1.6vw;
-        padding-bottom: 2%
+        font-size: 2.5vw;
     }
-    .home-section {
-        border: solid white 1px;
-    }    
+
 }
 
 @media screen and (max-width: 992px) {
     .index-main {
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 10%;
     }
 
     .home-section {
@@ -172,10 +155,10 @@ a:hover {
 
 @media screen and (max-width: 576px) {
     .header-1 {
-        font-size: 1.3rem;
+        font-size: 2.5rem;
     }
     .sub-1 {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .home-section {

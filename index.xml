@@ -5,11 +5,64 @@
     <link>https://knghiem.github.io/</link>
     <description>Recent content in Home on Khanh Nghiem</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://knghiem.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Katex Math Typesetting</title>
+      <link>https://knghiem.github.io/posts/katex-math-typesetting/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/katex-math-typesetting/</guid>
+      <description>Enable Katex in the config file by setting the katex param to true. This will import the necessary Katex CSS/JS.
+Note: Use the online reference of supported TeX functions.
+Some math:</description>
+    </item>
     
-	<atom:link href="https://knghiem.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NASA Images</title>
+      <link>https://knghiem.github.io/posts/nasa-images/</link>
+      <pubDate>Thu, 27 Dec 2018 20:46:49 -0600</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/nasa-images/</guid>
+      <description>Images from the NASA Image and Video Library.
+ The Sun The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process.</description>
+    </item>
     
+    <item>
+      <title>Quotes by Carl Jung</title>
+      <link>https://knghiem.github.io/posts/quotes-by-carl-jung/</link>
+      <pubDate>Wed, 26 Dec 2018 00:29:41 -0600</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/quotes-by-carl-jung/</guid>
+      <description>Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.</description>
+    </item>
+    
+    <item>
+      <title>Style a markdown table with Bootstrap classes in Hugo</title>
+      <link>https://knghiem.github.io/posts/style-a-markdown-table-with-bootstrap-classes-in-hugo/</link>
+      <pubDate>Wed, 12 Dec 2018 12:47:56 -0600</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/style-a-markdown-table-with-bootstrap-classes-in-hugo/</guid>
+      <description>Inspired by this discussion, I wanted the ability to style a markdown table with Bootstrap table classes. In the past, I&amp;rsquo;ve accomplished this by defining the table in a data file, then building it with a shortcode.</description>
+    </item>
+    
+    <item>
+      <title>Use Snap to install the Hugo edge version on Fedora and Ubuntu</title>
+      <link>https://knghiem.github.io/posts/use-snap-to-install-the-hugo-edge-version-on-fedora-and-ubuntu/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/use-snap-to-install-the-hugo-edge-version-on-fedora-and-ubuntu/</guid>
+      <description>If you are using the Fedora or Ubuntu Linux distributions &amp;ndash; I&amp;rsquo;m currently on Fedora 28 &amp;ndash; and would like to help test the latest development version of Hugo, or if you just want to be on the bleeding-edge of things, this post is for you.</description>
+    </item>
+    
+    <item>
+      <title>Script to add a page-level variable to content front matter in hugo</title>
+      <link>https://knghiem.github.io/posts/script-to-add-a-page-level-variable-to-content-front-matter-in-hugo/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/script-to-add-a-page-level-variable-to-content-front-matter-in-hugo/</guid>
+      <description>This was originally a question posed on the hugo discussion forums.
+The user wanted to loop through all her content files and add a weight page-level variable to the front matter.</description>
+    </item>
     
     <item>
       <title>Why you should practice writing</title>
@@ -21,12 +74,50 @@
     </item>
     
     <item>
+      <title>Creating a New Theme</title>
+      <link>https://knghiem.github.io/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://knghiem.github.io/posts/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://knghiem.github.io/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://knghiem.github.io/posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://knghiem.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://knghiem.github.io/about/</guid>
-      <description>My name is Khanh Nghiem (b. 1997). I was born in Hanoi, Vietnam and moved to the US for college in 2015. I am currently living in Austin, TX. My day job is at Google Cloud, in a one-year talent development program where I received intensive training on cloud technology and business skills before rotating through different positions across the company.</description>
+      <description>Illustration - collab with Hoang Tho
+ Khanh Nghiem /k⋅ahn ng⋅eem/ (b. 1997) grew up in Hanoi, Vietnam. He moved to the US in 2015 to study Sociology at Connecticut College.</description>
     </item>
     
   </channel>

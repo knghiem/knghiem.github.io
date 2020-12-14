@@ -4,17 +4,112 @@
   
   <url>
     <loc>https://knghiem.github.io/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/hugo/</loc>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/katex/</loc>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/katex-math-typesetting/</loc>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/math/</loc>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://knghiem.github.io/posts/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://knghiem.github.io/tags/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/typesetting/</loc>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/nasa/</loc>
+    <lastmod>2018-12-27T20:46:49-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/nasa-images/</loc>
+    <lastmod>2018-12-27T20:46:49-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/quotes/</loc>
+    <lastmod>2018-12-26T00:29:41-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/quotes-by-carl-jung/</loc>
+    <lastmod>2018-12-26T00:29:41-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/bootstrap/</loc>
+    <lastmod>2018-12-12T12:47:56-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/css/</loc>
+    <lastmod>2018-12-12T12:47:56-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/style-a-markdown-table-with-bootstrap-classes-in-hugo/</loc>
+    <lastmod>2018-12-12T12:47:56-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/fedora/</loc>
+    <lastmod>2018-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/snap/</loc>
+    <lastmod>2018-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/ubuntu/</loc>
+    <lastmod>2018-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/use-snap-to-install-the-hugo-edge-version-on-fedora-and-ubuntu/</loc>
+    <lastmod>2018-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/awk/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/command-line/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/script-to-add-a-page-level-variable-to-content-front-matter-in-hugo/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -25,6 +120,66 @@
   <url>
     <loc>https://knghiem.github.io/tags/writing/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/featured/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/fun/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/git/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/posts/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://knghiem.github.io/tags/migration/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
