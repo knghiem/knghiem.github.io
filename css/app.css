@@ -84,7 +84,7 @@ audio {
 }
 
 .font-1 {
-    font-family: 'Source Code Pro', monospace !important;
+    font-family: 'Londrina Solid', cursive;
 }
 
 .highlighted {
@@ -93,13 +93,10 @@ audio {
 }
 
 .header-1 {
-    padding-top: 5%;
-    font-size: 4vw
-}
-.sub-1 {
-    font-size: 2.5vw;
-    font-weight: 300;
-    padding-bottom: 5%;
+    margin-top: 50px;
+    font-size: 7vw;
+    line-height: 1.25;
+    margin-bottom: 75px;
 }
 
 .header-row {
@@ -130,20 +127,14 @@ a:hover {
     text-decoration: none;
 }
 
-@media screen and (min-width: 992px) {
-    .header-1 {
-        font-size: 3.75vw
-    }
-    .sub-1 {
-        font-size: 2.5vw;
-    }
-
+#header-text {
+    border: solid 1px;
 }
 
 @media screen and (max-width: 992px) {
     .index-main {
-        padding-left: 5%;
-        padding-right: 10%;
+        padding-left: 15vw;
+        padding-right: 15vw;
     }
 
     .home-section {
@@ -154,16 +145,16 @@ a:hover {
 }
 
 @media screen and (max-width: 576px) {
-    .header-1 {
-        font-size: 2.5rem;
-    }
-    .sub-1 {
-        font-size: 1.2rem;
-    }
-
     .home-section {
         border-bottom: solid lightgray 1px ;
         padding-bottom: 1.5rem;
         margin-bottom: 2rem;
     }
+    .header-1 {
+        font-size: 12vw;
+    }
+    #header-text {
+        border: hidden;
+    }
+    
 }
