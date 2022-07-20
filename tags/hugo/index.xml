@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Khanh Nghiem</title>
+    <link>https://knghiem.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Khanh Nghiem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://knghiem.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Katex Math Typesetting</title>
+      <link>https://knghiem.github.io/posts/katex-math-typesetting/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/katex-math-typesetting/</guid>
+      <description>Enable Katex in the config file by setting the katex param to true. This will import the necessary Katex CSS/JS.
+Note: Use the online reference of supported TeX functions.
+Some math:</description>
+    </item>
+    
+    <item>
+      <title>Style a markdown table with Bootstrap classes in Hugo</title>
+      <link>https://knghiem.github.io/posts/style-a-markdown-table-with-bootstrap-classes-in-hugo/</link>
+      <pubDate>Wed, 12 Dec 2018 12:47:56 -0600</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/style-a-markdown-table-with-bootstrap-classes-in-hugo/</guid>
+      <description>Inspired by this discussion, I wanted the ability to style a markdown table with Bootstrap table classes. In the past, I&amp;rsquo;ve accomplished this by defining the table in a data file, then building it with a shortcode.</description>
+    </item>
+    
+    <item>
+      <title>Use Snap to install the Hugo edge version on Fedora and Ubuntu</title>
+      <link>https://knghiem.github.io/posts/use-snap-to-install-the-hugo-edge-version-on-fedora-and-ubuntu/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/use-snap-to-install-the-hugo-edge-version-on-fedora-and-ubuntu/</guid>
+      <description>If you are using the Fedora or Ubuntu Linux distributions &amp;ndash; I&amp;rsquo;m currently on Fedora 28 &amp;ndash; and would like to help test the latest development version of Hugo, or if you just want to be on the bleeding-edge of things, this post is for you.</description>
+    </item>
+    
+    <item>
+      <title>Script to add a page-level variable to content front matter in hugo</title>
+      <link>https://knghiem.github.io/posts/script-to-add-a-page-level-variable-to-content-front-matter-in-hugo/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/script-to-add-a-page-level-variable-to-content-front-matter-in-hugo/</guid>
+      <description>This was originally a question posed on the hugo discussion forums.
+The user wanted to loop through all her content files and add a weight page-level variable to the front matter.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://knghiem.github.io/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://knghiem.github.io/posts/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://knghiem.github.io/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://knghiem.github.io/posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static.</description>
+    </item>
+    
+  </channel>
+</rss>

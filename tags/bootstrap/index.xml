@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bootstrap on Khanh Nghiem</title>
+    <link>https://knghiem.github.io/tags/bootstrap/</link>
+    <description>Recent content in bootstrap on Khanh Nghiem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 Dec 2018 12:47:56 -0600</lastBuildDate><atom:link href="https://knghiem.github.io/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Style a markdown table with Bootstrap classes in Hugo</title>
+      <link>https://knghiem.github.io/posts/style-a-markdown-table-with-bootstrap-classes-in-hugo/</link>
+      <pubDate>Wed, 12 Dec 2018 12:47:56 -0600</pubDate>
+      
+      <guid>https://knghiem.github.io/posts/style-a-markdown-table-with-bootstrap-classes-in-hugo/</guid>
+      <description>Inspired by this discussion, I wanted the ability to style a markdown table with Bootstrap table classes. In the past, I&amp;rsquo;ve accomplished this by defining the table in a data file, then building it with a shortcode.</description>
+    </item>
+    
+  </channel>
+</rss>
