@@ -5,22 +5,31 @@
     <link>https://knghiem.github.io/tags/</link>
     <description>Recent content in Tags on Khanh Nghiem</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://knghiem.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://knghiem.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>writing</title>
-      <link>https://knghiem.github.io/tags/writing/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      <title>ai</title>
+      <link>https://knghiem.github.io/tags/ai/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://knghiem.github.io/tags/writing/</guid>
+      <guid>https://knghiem.github.io/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>music</title>
-      <link>https://knghiem.github.io/tags/music/</link>
-      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      <title>hci</title>
+      <link>https://knghiem.github.io/tags/hci/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://knghiem.github.io/tags/music/</guid>
+      <guid>https://knghiem.github.io/tags/hci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://knghiem.github.io/tags/programming/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://knghiem.github.io/tags/programming/</guid>
       <description></description>
     </item>
     

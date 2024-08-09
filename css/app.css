@@ -1,8 +1,38 @@
-html, body, ul, ol, li, h2, h3, h4, h5, h6 {
-    font-family: 'Bai Jamjuree', sans-serif;
-    line-height: 1.8;
+html, body, ul, ol, li, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.75;
 }
 
+h1, h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    color: sienna;
+    line-height: 1.5;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .sans-serif {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
 #top-shadow {
     position: fixed;
     top: 0;
@@ -22,6 +52,7 @@ html, body, ul, ol, li, h2, h3, h4, h5, h6 {
 
 nav a.nav-link {
     text-decoration: none;
+    font-family: "Libre Franklin", sans-serif;
 }
 
 .navbar-toggler {
@@ -44,6 +75,7 @@ nav a.nav-link {
 
 .tag-btn {
     margin-bottom: 0.3em;
+    font-family: "Libre Franklin", sans-serif;
 }
 
 .home-tag {
@@ -71,8 +103,8 @@ pre code {
 code {
     padding: 2px 4px;
     font-size: 90%;
-    color: #c7254e;
-    background-color: #f9f2f4;
+    color: blue;
+    background-color: #f3f4ff;
     border-radius: 4px;
 }
 
@@ -110,14 +142,14 @@ audio {
 }
 
 a {
-    color: black;
-    text-decoration-line: underline;
-    text-underline-position: under;
-    text-decoration-style: dashed;
-    text-decoration-color: gray;  
+    color: sienna;
+    /* text-decoration-line: underline;
+    text-underline-position: under; */
+    /* text-decoration-style: dashed;
+    text-decoration-color: gray;   */
 }
 
 a:hover {
-    color: gray;
+    color: sandybrown;
     text-decoration: none;
 }

@@ -1,0 +1,365 @@
+<!doctype html>
+
+<html lang="en" class="h-100">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="generator" content="Hugo 0.79.0" />
+  
+  <link href="https://fonts.googleapis.com/css2?f&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap+family=Alef:wght@400;700&family=Cutive+Mono&family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://knghiem.github.io/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://knghiem.github.io/css/app.css">
+
+  
+  
+  <title>AI Coding Assistants - Looking Back and Forward | Khanh Nghiem</title>
+</head>
+  <script src="https://knghiem.github.io/js/feather.min.js"></script>
+<script src="https://knghiem.github.io/js/jquery-3.3.1.slim.min.js"></script>
+<script src="https://knghiem.github.io/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  feather.replace();
+  $('.collapse').collapse();
+
+  $(document).ready(function(){
+  $(window).scroll(function(){
+    var y = $(window).scrollTop();
+    if( y > 50 ){
+        $("#top-shadow").css({'display':'block', 'opacity':y/20});
+    } else {
+        $("#top-shadow").css({'display':'block', 'opacity':y/20});
+    }
+  });
+  })
+</script>
+  <body class="d-flex flex-column h-100">
+    
+<div class="container-fluid"> 
+   
+  <nav class="navbar nav navbar-expand-lg navbar-light fixed-top">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" focusable="false">
+        <title>Menu</title>
+        <path stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
+      </svg>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav ml-auto">
+      
+      
+      
+        
+        
+          
+          
+          
+          
+          
+            
+          
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/"> Home</a>
+        </li>
+      
+        
+        
+          
+          
+          
+          
+          
+            
+          
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/posts/"> Posts</a>
+        </li>
+      
+        
+        
+          
+          
+          
+          
+          
+            
+          
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/about/"> About</a>
+        </li>
+      
+    </ul>
+    </div>
+  </nav>
+</div>
+
+
+    <div>
+      <main id="main">
+        
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <h2 class="single-title">AI Coding Assistants - Looking Back and Forward</h2>
+            <p class="sans-serif">
+
+
+<time datetime="2024-08-09">Aug 9, 2024</time>
+
+&nbsp; ⋅ &nbsp; tags:
+
+
+  
+  
+  <a class="badge badge-light" href="https://knghiem.github.io/tags/ai">ai</a>
+  
+  
+  <a class="badge badge-light" href="https://knghiem.github.io/tags/hci">hci</a>
+  
+  
+  <a class="badge badge-light" href="https://knghiem.github.io/tags/programming">programming</a>
+  
+
+</p>
+            <p class="sans-serif text-muted font-italic">est. reading time:  21  mins, 4317  words</p>
+            <hr>
+            <p>In the last two years, our AI community has learned a lot about large language models (LLMs) and how we could use them for human needs, including the need for building better, faster, and more reliable software. For much of this period, I was the product manager in <a href="https://codevista.ai/">a team</a> that built AI coding assistants and closely followed the flow of ideas and discourse in this field. I want to compile and share in this blog post insights I compiled while working in the AI field, regarding building the next-generation AI coding assistant across four main themes:</p>
+<p><em>(click to jump to section)</em></p>
+<ol>
+<li><a href="#1-human-centered-ai">Human-centered AI design</a></li>
+<li><a href="#2-in-ide-ai">In-IDE AI</a></li>
+<li><a href="#3-technical-implementation">Technical implementation</a></li>
+<li><a href="#4-studying-impact">Studying impact</a></li>
+</ol>
+<p>This post is an updated adaptation of my short position paper <a href="https://arxiv.org/abs/2403.14592"><em>Envisioning the Next-Generation AI Coding Assistant: Insights and Proposals</em></a>, which won the Best Paper Award at the JetBrains <a href="https://ide-workshop.github.io/content/ide-2024.html">IDE Workshop</a> in ICSE ‘24.</p>
+<p style="text-align: center;">***</p>
+<h3 id="contextcontext"><a href="#context">Context</a></h3>
+<p>Fall 2022, in a pre-ChatGPT world, there were a small but growing number of AI coding tools on the market.</p>
+<p>They leveraged OpenAI Codex or proprietary in-house completion models to write code (GitHub Copilot, TabNine), comments (Mintlify), unit tests (DiffBlue), etc. This early generation of AI coding assistants provided simple interfaces to generate predictions based on the existing content. Users had controls over:</p>
+<ol>
+<li><strong>input</strong> – code and text snippets to generate next-token or fill-in-the-middle predictions;</li>
+<li><strong>processing parameters</strong> – user settings such as generation length, temperature, pre- and post-processing procedures;</li>
+<li><strong>acceptance</strong> – decision to insert code and text suggestions into the working environment.</li>
+</ol>
+<p>The early adopters of these tools were a small base. Companies were aware of AI-assisted assistants but unwilling to roll them out at work over concerns of intellectual property violations, data privacy and security hazards, as well as quality inconsistency. At this time, AI researchers and practitioners mostly focused on improving the foundational models and identifying specific use cases where AI could best assist developers.</p>
+<p>With the meteoric rise of ChatGPT, everything changed.</p>
+<p>The field largely moved away from completion models and diverted attention towards instruction-tuned, conversational LLMs, which led to a rapid proliferation and advancement of such models from both closed- and open-source organizations.</p>
+<p>This shift in the foundational technology spilled over to application design and user experience, where the default mode of human-AI interactions became multi-turn conversations. The conversation window became the main user interface, regardless of the diverse user aims in AI-assisted applications, causing an era of yet-another-chatbot fatigue.</p>
+<p>However, in recent months, there has been a strong resurgence of straightforward auto-completion (particularly in code suggestions) and steady emergence of task-specific AI-assisted workflows, as well as more ambient modes of human-AI interaction.</p>
+<p>Predictions of an AI-assisted productivity boom in key industries, with emphasis on software development, set off the race to build and rollout the next-generation AI coding assistants. Large sums of fundings expanded the field, attracting new researchers and practitioners to the field of AI, testing new ideas and apparatuses to make AI more helpful for coding tasks, ushering in fast-paced knowledge advancements and product innovations.</p>
+<p>A refreshed interest (and fear of missing out) drove more mainstream adoption of AI coding assistants in tech companies, escalating the needs for administrative capabilities from usage policies, monitoring, auditing, and impact measuring.</p>
+<p>Yet in a boom of new ideas and possibilities, I want to take a pause to curate and reflect on core concepts and existing challenges to make AI helpful and reliable for developers. Our community of programmers are simultaneously the builders, supporters, critics, benefactors and beneficiaries of this technology. By focusing our efforts on the right challenges, we can usher in a new era of AI-assisted software engineering, improving the coding process and developer experience.</p>
+<h3 id="1-human-centered-ai1-human-centered-ai"><a href="#1-human-centered-ai">1. Human-centered AI</a></h3>
+<p>The emergent capabilities of foundational LLMs to generate coherent and relevant text to various requests have inspired many ideas for applications, serving a wide variety of human needs:</p>
+<ul>
+<li>informational – generative search, Q&amp;A, knowledge recall</li>
+<li>educational – personalized tutoring, adaptive lesson plans</li>
+<li>recreational – creative content generation</li>
+<li>emotional – romance bots</li>
+<li>professional – call center, communication assistance, automated reporting, etc.</li>
+</ul>
+<p>LLM potential ranges extensively because a lot of human activities are text-based. However, foundational LLMs need to be wrapped under thoughtful application designs to materialize their potential.</p>
+<p>Building applications with LLMs poses unique challenges. One is aligning LLMs' generative variability with human values and needs. Two is incorporating AI tools effectively into workflows of solving tasks that require complex cognitive (and intuitive!) abilities beyond textual processing.</p>
+<p>Complete automation is barely a feasible option. Instead, we should focus on working towards a system that combines human control and AI assistance, which is precisely the goal of human-center AI design.</p>
+<p>Foundational resources:</p>
+<ul>
+<li><a href="https://pair.withgoogle.com/">Google People + AI Research</a></li>
+<li><a href="https://www.ibm.com/design/ai/">IBM Design for AI</a></li>
+<li><a href="https://hcil.umd.edu/human-centered-ai/">Human Centered AI Book</a></li>
+<li><a href="https://arxiv.org/abs/2401.10739">JetBrains Literature Review of In-IDE Human-AI Experience</a></li>
+</ul>
+<p>Human-centered AI design investigates the unique characteristics of generative AI from the perspective of user experience design and consequently provides basic guidelines to improve human-AI interactions. Some main areas of recommendations include:</p>
+<ol>
+<li>Design for mental models &amp; user aims</li>
+<li>Design for multiple outputs &amp; variability</li>
+<li>Design for human controls &amp; feedback</li>
+<li>Design for imperfections, errors &amp; fallbacks</li>
+<li>Design for explainability &amp; trust</li>
+<li>Design against harm</li>
+</ol>
+<p><em>(adapted list from Google’s Human-AI Interaction guidebook and IBM’s paper <a href="https://arxiv.org/abs/2301.05578">Toward General Design Principles for Generative AI</a>)</em></p>
+<p>Covering all of these areas would be impossible for the scope of a blog post, that’s why I will limit my deep-dive here to only the first area of recommendations, Design for mental models &amp; user aims.</p>
+<p>By definition, a mental model is a person’s framework to interpret reality. In the context of AI coding assistants, designing for mental models means accommodating the different preconceived notions of AI that the users might have and guiding their understandings and expectations to match with the product’s actual capabilities.</p>
+<p>A common frustration shared by early adopters of AI coding chatbots results from mismatched expectations set up by the product presentation &amp; marketing with actual user experience – failure to design for mental models.
+The low-fidelity user interface of a chat window of turn-taking conversations allowed and encouraged the users to put in free-form text for any requests related to coding. A common product tagline trope was, “you can ask the product anything, and AI will do it for you” – a long-shot exaggeration.</p>
+<p>Users soon found out that in fact, they couldn’t just ask AI anything to get the assistance that they wanted. And no, this problem cannot be solved entirely by “prompt engineering”. Some requests required so much context that it would take too much time to collect and write up all that information in a prompt. On top of that, the stochastic nature of LLMs often conflicted with the precision required in coding, with the slightest deviation in the generation step leading to irrelevant, wrong, or unhelpful responses.</p>
+<p>The prompting interface also became a breeding ground for misuse, as bad-faith users try to break safeguards through prompt injections, requesting the underlying LLM to give responses outside of the intended usage. To address this problem, AI coding assistants might double down on implementing stricter <a href="https://help.salesforce.com/s/articleView?id=sf.generative_ai_trust_arch.htm&amp;type=5">filters</a>, yet they run into the problem of falsely rejecting legitimate requests, costing users time and effort to maneuver around the restriction policies.</p>
+<p>This is not to say that we should abandon chat windows. It is a simple and powerful interface for free-form requests. Chat windows have also improved a lot since the added capabilities for automatic <a href="https://arxiv.org/abs/2311.05661">prompt augmentation</a> and <a href="https://python.langchain.com/v0.1/docs/modules/tools/">tool integration</a>, as well as the advancements in foundational LLMs where new models are better trained to align with human values and expectations. People get the responses they want from chat windows more easily now than before. However, we should avoid overreliance on chat as the default interface for coding assistance.</p>
+<p>When tackling complex tasks, we humans don’t rely solely on free text exchanges, but more importantly, protocols and processes. Especially in our field of computer science, predicated on algorithms, we understand the utmost importance of a rigorous sequence of instructions, a thoughtful procedure.
+While working with my team on building our AI coding assistant, I dedicated most of our limited budget for research &amp; development efforts to develop features that we called “predefined workflows” where users do not prompt, but engage with LLMs through a curated process with more traditional modes of interactions – browse, filter, select, commit, etc.</p>
+<p>An example is the code refactor workflow based on linter findings. By typing the slash comment <code>/refactor</code> from the chat window, users are taken to a new window that guides them through a multi-step procedure:</p>
+<ol>
+<li><strong>review the list of findings</strong> – browse the issues detected by rule-based linters, with extra labels generated by AI that suggest edit impact predictions (edit impacting a single line, or a function, a file, or cross-files), preview the isolated edits of individual issues without combining fixes from other issues</li>
+<li><strong>tune settings and parameters</strong> – choose what findings to tackle, whether to apply templated, rule-based edits if applicable (to save AI incurrence cost),</li>
+<li><strong>monitor</strong> – get updates on the progress and partial results throughout the server-side procedure</li>
+<li><strong>browse potential solutions</strong> – stage and review AI-generated changes alongside explanations</li>
+<li><strong>decide</strong> – whether or not to commit the suggestions into their source code, edits are saved in an edit history that can be reversible when conditions allow</li>
+</ol>
+<p>This code refactor workflow utilizes existing mental models of linter remediation &amp; change list review, processes that developers are already familiar with. The prompt engineering steps are abstracted and relegated to the tool builders’ responsibility.</p>
+<p>While coding, developers obviously have more needs outside of linter remediation. By applying the principles of mental models and user aims, we can further break down different types of problems during software development, investigate how programmers are already solving those problems, and brainstorm how AI might enhance their workflows. Here’s my reference model of human-AI interactions while coding:</p>
+<img src="/assets/process-coding-with-ai-coding-assistants.png" alt="process-ai-coding-assistants"/>
+<p>From this view, the next-generation AI coding assistant need not be a singular, human-like pair programmer, but instead a collection of tools that use emergent capabilities in AI and related technologies to enhance the coding experience. Each tool comes with its own sets of assumptions, capabilities, and limitations that should be clearly communicated to the users.</p>
+<p>The biggest AI coding assistants, most notably <a href="https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features">GitHub Copilot</a>, are following this model, positioning their products as bundles of features and capabilities, tailored in design to help developers at different stages of coding, with the first-generation code autocomplete assistant remaining the most popular and widely adopted offering, due to the straight-forward interaction model and clear value proposition.</p>
+<p>Currently, the predefined commands and workflows are commonly triggered through special operators in the chat window or menu option selection. However, with improvements of intention slotting, I think we can achieve a more seamless experience, where AI coding assistants suggest predefined flows based on users’ natural language utterances.</p>
+<p>Further readings:</p>
+<ul>
+<li><a href="https://arxiv.org/abs/2208.06213">What is it like to program with AI?</a></li>
+<li><a href="https://arxiv.org/abs/2305.11248">Designing for trust in AI coding tools</a></li>
+<li><a href="https://arxiv.org/abs/2311.01020">Problems, causes, solutions of AI pair programming</a></li>
+</ul>
+<h3 id="2-in-ide-ai2-in-ide-ai"><a href="#2-in-ide-ai">2. In-IDE AI</a></h3>
+<p>Even from the early days of AI coding assistants, it was clear that programmers preferred to interact with AI where they spend the most time, in text editors and integrated development environments (IDEs). In-IDE AI allows developers to leverage the capabilities of AI without unnecessary context-switching.</p>
+<p>We built our AI coding assistants as third-party extensions and plugins for IDEs. Starting in mid-2022, our first project was building an AI writer for docstrings and comments in Visual Studio Code (VS Code), JetBrains IDE, and Eclipse. We quickly learned the challenges of working within the constrained set of exposed APIs from these IDEs to implement features that adhere to the guidelines of human-centered AI.</p>
+<p>Wishing to follow the principle of designing for human control, we planned an interface where upon user request, the AI agent writes and stages docstrings in the editor as discrete blocks of suggestions, with clear annotations that they were AI-generated. These blocks must remain uncommitted to the source code until manual user acceptance, unless configured otherwise.</p>
+<p>Take VS Code for example, the only way to review staged changes is with the refactor preview panel, a high-friction experience. It takes the developer away from their working editor and requires a few clicks to close and return to the original view.</p>
+<p>In order to implement a “staging before commit” experience right in the working editor view, our team had to build a custom UI component that we called <code>CommentBlock</code>. It used string and uri primitives to display annotated blocks of AI suggestions, with triggers to insert or ignore (accept or reject) individual or multiple blocks into the source code. Inevitably, the display is not as slick as other native UI components offered by VS Code.</p>
+<p>However, as coding assistants became more widely adopted, we also saw IDEs evolving to meet the demand for more sophisticated UI/UX engineered for AI features.</p>
+<p>In late 2023, GitHub Copilot Chat introduced the <a href="https://code.visualstudio.com/docs/copilot/getting-started-chat#_stay-in-the-flow-with-inline-chat">inline chat interface</a> which allows users to trigger a pop-up AI code chat window on a highlighted snippet in the active editor, without having to open the side panel. It was a novel and nifty interface; however, the native building blocks to replicate such an experience were not available to third-party developers.</p>
+<p>Since VSCode is open source, we discovered that the inline chat implementation in the source code used 10 VSCode APIs still in the proposed state. Proposed APIs are available for third-party developers, with a big caveat. Microsoft places restrictions on publishing extensions with these unstable APIs on the Marketplace, with the sole exception of GitHub Copilot Chat. So if we tried to use similar proposed APIs to GitHub Copilot Chat, we wouldn’t be able to release that build of our extension on the Marketplace. As a workaround, our team had to use the stable <code>createCommentController</code> API instead to build a scrappy implementation.</p>
+<p>IDE developers are reimagining what an AI-aware IDE would look like, resulting in exciting innovations. The founders and developers of the Zed text editor shared insightful ideas in the discussion <a href="https://zed.dev/blog/building-a-text-editor-in-times-of-ai">Building a Text Editor in the Times of AI</a>. For example, Zed offers an experimental UI where the editor animates the changes between the user’s original code and the AI refactored version in a dynamic spot-edit style.</p>
+<p>On the backend side, the Zed team revealed that they are improving their Zed-native AI assistants by re-using code insights from the same technical components required in smart IDEs such as a programming language server and parsers. Traditionally, these components enabled IDE capabilities such as syntax highlighting, autocompletion, warnings, etc. In the AI coding assistant context, the language server and parsers help collect and filter relevant context across the repository, working sessions, and knowledge base to enhance AI-generated suggestions.</p>
+<p>Similarly, since both VS Code and GitHub Copilot are owned by Microsoft, the internal collaboration allows the AI coding assistant to access <a href="https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow">data and code insights</a> from the text editor such as code workspace directory, recent files, user actions, etc.</p>
+<p>However, as these capabilities remain inaccessible to third-party developers, we must independently implement similar capabilities in our applications.</p>
+<p>Further readings:</p>
+<ul>
+<li><a href="https://idx.dev/blog/article/ai-tools-templates-and-android-studio">AI tools in project IDX</a></li>
+<li><a href="https://arxiv.org/pdf/2406.09577">A new generation of intelligent IDEs</a></li>
+<li><a href="https://arxiv.org/pdf/2406.09577">Embedding based search in JetBrains IDEs</a></li>
+</ul>
+<p>IDEs are evolving with the AI-assisted developers in mind. As the community figures out preferred modes of interactions with AI while programming, we should expect to see a wave of new AI-aware interfaces, tools, and capabilities in IDEs.</p>
+<h3 id="3-technical-implementation3-technical-implementation"><a href="#3-technical-implementation">3. Technical implementation</a></h3>
+<p>AI for software engineering is a fast-evolving field with new AI models, frameworks, applications libraries, and ideas emerging frequently. To keep up with this change, the technical implementation of AI coding assistants should remain flexible and agile, avoiding dependencies on any particular components.</p>
+<p>That means the technical implementation of AI applications should focus on building persistent abstraction layers to communicate with each other, maintaining different versions with backward compatibility of APIs that allow flexible switching among different versions and configurations.</p>
+<p>While building our own AI coding assistant, we developed several abstraction layers:</p>
+<ul>
+<li><strong>Uniform LLMs layer</strong>: providing the same stateless request and response structure for LLMs across different providers (Microsoft Azure, Google Cloud, self-hosted HuggingFace TGI server for open source models)</li>
+<li><strong>Uniform AI backend layer</strong> (Python): providing the same stateless request and response structure for every AI process (LangChain prompts and tools)</li>
+<li><strong>Uniform representation of user messages</strong> in chat window as rich, structured content in a lexical editor</li>
+<li><strong>Uniform chat socket APIs and HTTP APIs</strong> (NodeJS)</li>
+</ul>
+<img src="/assets/architecture-ai-coding-assistants.png" alt="process-ai-coding-assistants" width="auto"/>
+<p>The abstraction layers allow our team to modify the underlying implementation of each component without cascading effects to other components. Separation of concerns enables team members to independently experiment with new technologies and incorporate them into the application.</p>
+<p>For example, we were able to smoothly swap the self-hosted AI server framework from Nvidia Triton Server to HuggingFace TGI to improve inference speed and reliability without any modification needed for other layers. To achieve uniformity, we built a proxy to map parameters from different providers such as Microsoft Azure and Google Cloud, alongside with our own self-hosted AI server, to a uniform structure. As new models came out, it typically took us only a couple of business days to ship them to production since no refactoring at other layers was required.</p>
+<p>Sourcegraph Cody takes the LLM abstraction to the next level by offering connectors to LLMs being <a href="https://sourcegraph.com/blog/local-chat-with-ollama-and-cody">served locally</a>, while providing the same capabilities and features in their frontend and backend applications.</p>
+<p>Since the AI backend layer (Python) and the LLMs inference services are stateless, we focus our engineering effort for sessions and state management in the application backend layer (NodeJS). Frequently accessed session data are stored in a Redis database and persistent user data such as request history, user-uploaded code files, logs, etc. are stored in a Mongo database. The loosely coupled, stateless design enables us to naturally leverage the scalable container-based architectures for application logic.</p>
+<p>Similar to the spirit of making publicly available foundational LLMs, an entire implementation of an AI coding assistant system is now open source. The team at OpenDevin shares their <a href="https://docs.all-hands.dev/modules/usage/intro">open source</a> coding assistant on GitHub and recently published a <a href="https://arxiv.org/abs/2407.16741">white paper</a> that provides system design, implementation and evaluation details.</p>
+<p>OpenDevin’s <a href="https://docs.all-hands.dev/modules/usage/architecture">architecture</a> embraces the same loosely-coupled containerized paradigm. They go the extra mile to maintain components for event streaming and agent skill list. These generic layers of abstraction add to the extensibility of the system, allowing rapid experimentation and expansion. By sharing these details with the larger community, OpenDevin helps lower the bar to entry for new teams on the scene, so they don’t have to start from scratch.</p>
+<h3 id="4-studying-impact4-studying-impact"><a href="#4-studying-impact">4. Studying impact</a></h3>
+<p>While we could generally agree that the goal of AI coding assistants is to improve developer’s productivity and happiness, we are still in the early stages of measuring and reporting where we are in achieving this goal.</p>
+<p>Understanding of the impact of using AI is crucial for everyone,</p>
+<ul>
+<li><strong>for end users</strong>: programmers need realistic expectations of personal gains from adopting AI in their workflows</li>
+<li><strong>for organizations</strong>: managers and leaders need to decide whether investments in money and effort to operate and administer AI coding tools is worthwhile</li>
+<li><strong>for AI tool developers</strong>: product teams need to know where and how to improve their AI coding assistants to better serve users</li>
+</ul>
+<p>In an <a href="https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/">article</a> published in May 2024, the research team at Microsoft and GitHub Copilot acknowledges ongoing challenges of studying AI impact on developers, despite the relavtively mainstream adoption of AI in coding. The main challenges come from the elusive nature of developer productivity and experience.</p>
+<p>Firstly, there is the question of the “right” productivity metrics. Since programming is a complex activity, with many processes involved, it is hard to come up with a definitive set of metrics that comprehensively approximate AI impact across all the work developers do.</p>
+<p>However, when we narrow down the scope to measuring productivity gains for an individual, well-defined activity, the metrics became more straightforward. For example, for the first tool we built – an AI docstring writer, the set of productivity metrics included:</p>
+<ul>
+<li>amount of code processed (kLOCs)</li>
+<li>suggestion acceptance rate</li>
+<li>doc coverage rate</li>
+<li>processing time</li>
+</ul>
+<p>We measure these metrics with clear goal of increase the values of some metrics and decrease others through product improvements to boost developer productivity.</p>
+<p>Generating docstrings and comments falls into the larger category of “generating natural language artifacts”, similar to writing README docs and pull request descriptions. While these artifacts are helpful to provide additional information for the source code, they don’t affect the quality of the software. They are not function-critical. Writing these artifacts are also often considered “toil” while making software, activities that developers usually want to delegate to automated, AI-assisted help.</p>
+<p>As we move our focus to more function-critical activities, the productivity model starts to get complicated.
+Take generating unit tests for example. Running unit tests are crucial in development to make sure the code snippet will operate with the intended functionality under a wide range of input scenarios. Writing good unit tests involves writing natural language artifacts – a test plan with comprehensive test scenarios and corresponding test data, as well as writing code – implementations of the unit tests.</p>
+<p>In this case, the quality of the natural language artifact is more consequential. If the AI-generated test plans are non-comprehensive or wrong, they will lead to missing and faulty test cases. Human supervision and revision is critical. The productivity model must consider significant effort for human review and the cost of overcoming human tendencies for <a href="https://arxiv.org/abs/2212.06823">AI overreliance</a>. To be comprehensive, it should also consider potential cost of remediating issues resulted from AI mistakes.</p>
+<p>In the code implementation step for unit testing, developers can get assistance from AI-suggested code generation. However, they must also spend significant effort to make sure the generated code is correct, especially in cases where generating unit tests for one function requires contextual dependencies from other classes and procedures. These variables do not only predicate on the product’s quality, but also personal and circumstantial factors that complicate analysis.</p>
+<p>Secondly, there is the question of the right research methods and level of analysis. Published research in the field of human-computer interaction (HCI) often relies self-reported surveys and controlled-environment experiments.</p>
+<p>Self-reported surveys help take a pulse of the user’s perception and sentiment of AI coding assistants. The results from self-reported surveys give insights into how the tools can improve the user experience. However, when talking about productivity, there is a gap between perceived versus actual productivity gains. Plus the framing of the questions and the participant’s individual biases might interplay to skew the survey results and subsequent interpretation. Besides, software development in a professional settings is often a team activity. There is little research on how individual productivity gains translate to collective teamwork success.</p>
+<p>Controlled-environment experiments are typically setup where developers of specific skill levels (<a href="https://arxiv.org/abs/2309.14049">novice</a> to <a href="https://arxiv.org/abs/2404.12000">expert</a>) are given programming problems to solve in two settings – with and without AI help. Observations from these experiments can reveal patterns of human-AI interactions and how they differ within and across skill levels. However, these experiments are often conducted on a small scale with participants of specific backgrounds that limit the generability and scalability of the analysis.</p>
+<p>Product teams building AI coding assistants have the unique opportunity to record, access, and analyze in-app metrics and telemetry to deduce insights about the tools’ impact. Of course, the collection and usage of user data must be transparently communicated, including the opportunity to opt-out.</p>
+<p>One way that my previous team collect data for downstream analyses involves generating metadata tags of user and system chat messages. As a standard data privacy practice, the chat messages data are securely encrypted and only the conversation owner can uncover the content. To study user behaviors and hypothesize signals of impact, our system generates a series of metadata tags and made them available to a team of business analysts, including:</p>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/research/uploads/prod/2023/09/LLMs_for_Intent_Taxonomies-650b6ae9c10b5.pdf">user intent classification</a> based on pre-defined taxonomy of various coding operations</li>
+<li>length of user prompts and length of appended code context in request</li>
+<li>length of system response and length of generated code in response</li>
+<li>generated code insertion rate into the working editor</li>
+<li>user rating (helpful / unhelpful) of messages</li>
+</ul>
+<p>The data help us discover user usage patterns. The most popular intents for using the AI coding assistant among our users were code generation, bug fix, and information seeking. Users also had the tendencies to write short prompts without appending necessary contexts. Users were also more likely to rate the assistant’s response as “helpful” when they could directly insert generated snippets directly into their code.</p>
+<p>To my knowledge, no AI coding assistant team has yet to publish an impact study based on in-app and telemetry metrics, although GitHub copilot mentioned they make <a href="https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/#how-do-we-think-about-developer-productivity-at-github:~:text=Do%20users%E2%80%99%20actual%20experiences%20confirm%20what%20we%20infer%20from%20telemetry%3F">inferences</a> from user activities. In the future, I hope to see AI coding assistant teams share their methodologies, analyses, and insights from usage data, so the field can move forward in making the AI-assisted coding experience more productive, positive, and helpful for developers.</p>
+<h3 id="conclusionconclusion"><a href="#conclusion">Conclusion</a></h3>
+<p>Working with AI for software engineering, I often felt a mix of awe, frustration, and cautious enthusiasm. The awe comes from expectation-defying emergent capabilities from foundational models and the innovative spirit of the community that bring cool ideas to life. The frustration comes from the failure scenarios where our features are not delivering results we hope for our users, and the endless list of challenges we face to build a good system. The cautious enthusiasm comes from the conviction that as a community, we can bring forth technological breakthroughs (or at the very least, incremental progress) to make AI more helpful for people. At the same time, we must talk to each other, share ideas about how to best go about solving these problems, since AI is not a benign pursuit, with major environmental, financial, technological, and social consequences if not done right. My hope is that I will look back at this blog post a year from now, feeling more awe than most about the progress that we will have collectively made.</p>
+
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "khanhnghiem" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>
+
+      </main>
+    </div>
+    
+<footer id="footer" class="mt-auto text-center text-muted">
+  <div class="container">
+    <p class="text-muted sans-serif">Last updated 2024. Built with Hugo and hosted on GitHub Pages</p>
+  </div>
+</footer>
+
+    
+
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq"
+  crossorigin="anonymous"
+/>
+
+
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"
+></script>
+
+
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"
+></script>
+
+
+    
+  
+
+  </body>
+</html>

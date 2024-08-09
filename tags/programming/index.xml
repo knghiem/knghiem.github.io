@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Khanh Nghiem</title>
-    <link>https://knghiem.github.io/posts/</link>
-    <description>Recent content in Posts on Khanh Nghiem</description>
+    <title>programming on Khanh Nghiem</title>
+    <link>https://knghiem.github.io/tags/programming/</link>
+    <description>Recent content in programming on Khanh Nghiem</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://knghiem.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://knghiem.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Coding Assistants - Looking Back and Forward</title>
       <link>https://knghiem.github.io/posts/ai-coding-assistants/</link>

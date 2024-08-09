@@ -5,52 +5,25 @@
     <link>https://knghiem.github.io/</link>
     <description>Recent content in Home on Khanh Nghiem</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://knghiem.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://knghiem.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Vietnam Month Six and 2022 Recap, question mark</title>
-      <link>https://knghiem.github.io/posts/vietnam-month-six-recap/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      <title>AI Coding Assistants - Looking Back and Forward</title>
+      <link>https://knghiem.github.io/posts/ai-coding-assistants/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://knghiem.github.io/posts/vietnam-month-six-recap/</guid>
-      <description>It’s good to know when to give up. I guess this is my announcement that I’m giving up on this monthly reflection project. I was still stuck on writing my October post.</description>
+      <guid>https://knghiem.github.io/posts/ai-coding-assistants/</guid>
+      <description>In the last two years, our AI community has learned a lot about large language models (LLMs) and how we could use them for human needs, including the need for building better, faster, and more reliable software. For much of this period, I was the product manager in a team that built AI coding assistants and closely followed the flow of ideas and discourse in this field. I want to compile and share in this blog post insights I compiled while working in the AI field, regarding building the next-generation AI coding assistant across four main themes:</description>
     </item>
     
     <item>
-      <title>Vietnam Month Three Recap</title>
-      <link>https://knghiem.github.io/posts/vietnam-month-three-recap/</link>
-      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      <title>About</title>
+      <link>https://knghiem.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://knghiem.github.io/posts/vietnam-month-three-recap/</guid>
-      <description>I turned 25.
-It feels unreal that I had past the middle mark of my 20s. My 25th birthday went by like any other day. I clocked into work at 8:30 in the morning, raced against the deadline to package a new version of my team’s software, had lunch and coffee by myself at the office, did the same work for a few more hours before clocking out at 5:30.</description>
-    </item>
-    
-    <item>
-      <title>Vietnam Month Two Recap</title>
-      <link>https://knghiem.github.io/posts/vietnam-month-two-recap/</link>
-      <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://knghiem.github.io/posts/vietnam-month-two-recap/</guid>
-      <description>I made a commitment to write a reflection post every month to capture the highlights of my journey back home in Vietnam. I decided to unpublish my first post to rewrite it and republish at a later time.</description>
-    </item>
-    
-    <item>
-      <title>FKA twigs – MAGDALENE (2019)</title>
-      <link>https://knghiem.github.io/posts/magdalene/</link>
-      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://knghiem.github.io/posts/magdalene/</guid>
-      <description>Genres: Art pop, electronic
-In our current time, I can’t think of any artist as multi-talented as FKA twigs. Since her critically acclaimed LP1 that reset the bar for experimental R&amp;amp;B, accompanied by avant-garde music videos with breath-taking art direction and masterful choreography (all done with twigs at the helm), she never stopped extending the limits of her talents.</description>
-    </item>
-    
-    <item>
-      <title>Why you should practice writing</title>
-      <link>https://knghiem.github.io/posts/why-you-should-practice-writing/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://knghiem.github.io/posts/why-you-should-practice-writing/</guid>
-      <description>Lately, I have been obsessed with Janelle Monáe. This obsession began with her latest album “Dirty Computer”. I admire how articulate and thoughtful she is with everything that she does. So I did what any true fan would do: I tried to watch as many interviews with Janelle Monáe as possible.</description>
+      <guid>https://knghiem.github.io/about/</guid>
+      <description>I&amp;rsquo;m a technologist, programmer, and writer based in Hanoi, Vietnam.
+Currently, I&amp;rsquo;m co-writing a novel and preparing for graduate school applications in Information Studies. I want to work in digital humanities, helping people access, navigate, and study cultural heritage from reliable sources.
+I moved to the US at 17 to attend Connecticut College (go Camels!) and was a visiting student at Columbia University for a semester. I lived in Austin, Texas for 3 years while working at Google Cloud in various positions.</description>
     </item>
     
   </channel>
