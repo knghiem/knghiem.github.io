@@ -25,14 +25,16 @@ const metadata_path_suffix ="_meta.xml";
 
 for (let i = 0; i < ids.length; i++) {
     let id = ids[i]
-    let thumb_path_suffix = id.replace("-","").toUpperCase;
-    thumb_paths.push(path_prefix.concat(id, thumb_path_suffix));
+    let thumb_path_suffix = id.valueOf();
+    thumb_path_suffix = thumb_path_suffix.replaceAll("-","");
+    thumb_path_suffix = thumb_path_suffix.toUpperCase();
+    thumb_paths.push(path_prefix.concat(id, "/", thumb_path_suffix, ".jpg"));
     metadata_paths.push(path_prefix.concat(id, "/", id, metadata_path_suffix));
     ia_paths.push("https://archive.org/details/"+id);
     manifest_paths.push(`https://iiif.archive.org/iiif/${id}/manifest.json`);
 }
 
-console.log(manifest_paths);
+console.log(thumb_paths);
 
 function loadXMLdoc(path, desc_el) {
     var xmlhttp = new XMLHttpRequest();
