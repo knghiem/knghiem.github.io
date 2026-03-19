@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="IMGL0585.JPG" source="original">
+    <mtime>1773811163</mtime>
+    <size>4712592</size>
+    <md5>2daf0efb5b0291a1626ae7bdc9830b72</md5>
+    <crc32>16ad01d4</crc32>
+    <sha1>25855a94bc7df3c1cb6cd5c3c0cd22ea9cc84168</sha1>
+    <format>JPEG</format>
+  </file>
+  <file name="IMGL0585_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>IMGL0585.JPG</original>
+    <mtime>1773811250</mtime>
+    <size>20188</size>
+    <md5>9632b50f7093fbba065e87bfde4a4de8</md5>
+    <crc32>26c3944d</crc32>
+    <sha1>30c33c03fefd4570de33076e63f793420f17d9f2</sha1>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1773811205</mtime>
+    <size>5847</size>
+    <md5>cccba503d3c98f5da09fff9a5eacff7b</md5>
+    <crc32>0de64c34</crc32>
+    <sha1>325b5150c717461a7df47ebbdf531ff8eb5c3f0a</sha1>
+    <format>Item Tile</format>
+  </file>
+  <file name="imgl-0585_archive.torrent" source="metadata">
+    <btih>179662275e73b3d713bb5f00e45574fb3c1f2320</btih>
+    <mtime>1773811272</mtime>
+    <size>2138</size>
+    <md5>b7e0eda8ca4043dd0188c406a8262a22</md5>
+    <crc32>91ce3712</crc32>
+    <sha1>86e0c8b8f8eb1c8051d87c1cdd4246dfc45e736f</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="imgl-0585_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>87d508c3c48a00a1c76f0c4844afa5b5</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="imgl-0585_meta.sqlite" source="original">
+    <mtime>1773811202</mtime>
+    <size>20480</size>
+    <md5>43fb661dbc0a19de10298afa8fd0da35</md5>
+    <crc32>61fe7213</crc32>
+    <sha1>6189f1001318a8da9b97345c3cb36a62f850d79c</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="imgl-0585_meta.xml" source="original">
+    <mtime>1773811220</mtime>
+    <size>752</size>
+    <md5>5aaea69183f393978be9433a6bd8021b</md5>
+    <crc32>784d902c</crc32>
+    <sha1>6f3bc89ed2244f7d2d561c261b6a56e067473bb4</sha1>
+    <format>Metadata</format>
+  </file>
+</files>
