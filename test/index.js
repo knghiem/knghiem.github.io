@@ -28,7 +28,7 @@ for (let i = 0; i < ids.length; i++) {
     let thumb_path_suffix = id.valueOf();
     thumb_path_suffix = thumb_path_suffix.replaceAll("-","");
     thumb_path_suffix = thumb_path_suffix.toUpperCase();
-    thumb_paths.push(path_prefix.concat(id, "/", thumb_path_suffix, ".jpg"));
+    thumb_paths.push(path_prefix.concat(id, "/", thumb_path_suffix, "_thumb.jpg"));
     metadata_paths.push(path_prefix.concat(id, "/", id, metadata_path_suffix));
     ia_paths.push("https://archive.org/details/"+id);
     manifest_paths.push(`https://iiif.archive.org/iiif/${id}/manifest.json`);
