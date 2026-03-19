@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="EO3A3702.JPG" source="original">
+    <mtime>1773813474</mtime>
+    <size>9948728</size>
+    <md5>d25ef2f16f2a75010fa8d174542a356e</md5>
+    <crc32>5700f263</crc32>
+    <sha1>c396c04db05339bf3fd6e7c109df06f41bd1508f</sha1>
+    <format>JPEG</format>
+  </file>
+  <file name="EO3A3702_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>EO3A3702.JPG</original>
+    <mtime>1773813933</mtime>
+    <size>36671</size>
+    <md5>f193d27d6a8d3fe80e10869379773cca</md5>
+    <crc32>d23310d2</crc32>
+    <sha1>b67b2ccf9f14242ba1a0441af4e0e34f82a296de</sha1>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1773813510</mtime>
+    <size>12582</size>
+    <md5>10e61c376d76ae520f62269ce07bed1c</md5>
+    <crc32>55115f36</crc32>
+    <sha1>c75cab840d624e20817069bf582bfc17959450a1</sha1>
+    <format>Item Tile</format>
+  </file>
+  <file name="eo-3-a-3702_archive.torrent" source="metadata">
+    <btih>792b499468f6c0123ebd9932291b2ee167e199e0</btih>
+    <mtime>1773813940</mtime>
+    <size>2359</size>
+    <md5>7c743bbc4ecb6ed31fd933cef2bfb459</md5>
+    <crc32>b5a86337</crc32>
+    <sha1>b4aecd66df768d97aff38ad25bad133ae8732355</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="eo-3-a-3702_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>42860ea18185738ac6b30e53f49e974d</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="eo-3-a-3702_meta.sqlite" source="original">
+    <mtime>1773813507</mtime>
+    <size>20480</size>
+    <md5>5fb5d38bd2134c76bcecb4baa363779e</md5>
+    <crc32>7f41f80d</crc32>
+    <sha1>6db8d6f8ae978691d2c0b83c44f2bbfc9f88d5b6</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="eo-3-a-3702_meta.xml" source="original">
+    <mtime>1773813524</mtime>
+    <size>869</size>
+    <md5>06ce92d43c54573476a3888329cd2926</md5>
+    <crc32>4fbd9880</crc32>
+    <sha1>7db3a0d4331dbbd12b76389ca02046209076a49d</sha1>
+    <format>Metadata</format>
+  </file>
+</files>
