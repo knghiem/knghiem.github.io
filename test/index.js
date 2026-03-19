@@ -19,7 +19,7 @@ let metadata_paths = [];
 let ia_paths = [];
 let manifest_paths = [];
 
-const path_prefix = "/assets/data/";
+const path_prefix = "/test/data/";
 const thumb_path_suffix ="/__ia_thumb.jpg";
 const metadata_path_suffix ="_meta.xml";
 
